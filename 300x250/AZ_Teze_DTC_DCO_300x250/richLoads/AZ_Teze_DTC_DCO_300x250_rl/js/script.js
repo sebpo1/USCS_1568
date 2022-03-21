@@ -85,12 +85,12 @@ function init() {
   tl.to('#headline2', 0.5, { autoAlpha: 1 }, "-=2");
   tl.to('#headline2', 0.5, { autoAlpha: 0 }, "+=0");
   tl.to('#logo', 0.5, { autoAlpha: 1 }, "+=0");
-  tl.to('#bg', 5, { scale: 1, x:0, y:0 });
+  tl.to('#bg', 2, { scale: 1, x:0, y:0 });
   tl.to(['#legal','#indication','#ISIWrapper', '#ISIFooter'], 0.5, { autoAlpha: 1});
   tl.to('#headline3', 0.5, { autoAlpha: 1 }, "+=0");
   tl.to('#headline3', 0.5, { autoAlpha: 0 }, "+=2");
   tl.to('#headline4', 0.5, { autoAlpha: 1 }, "+=0");
-  tl.to('#cta', 0.5, { autoAlpha: 1, onComplete: function(){
+  tl.to('#cta', 1, { autoAlpha: 1, onComplete: function(){
     frame4();
   } }, "+=0");
 
