@@ -121,7 +121,7 @@ var ssb = {
     }
 
     // scrollbar width
-    cont.sw = 6;
+    cont.sw = 4;
 
     // start scrolling
     cont.ssb_onscroll();
@@ -178,7 +178,7 @@ var ssb = {
     else{
         o.st.style.width = o.sw - 2 + 'px';
     }
-      o.sb.style.height = Math.ceil(Math.max(o.sw * 0.5, o.ratio * o.offsetHeight) + 1 + 7) + 2 + 'px';
+      o.sb.style.height = Math.ceil(Math.max(o.sw * 0.5, o.ratio * o.offsetHeight) + 1 + 7) + 4 + 'px';
     }
   },
   // arrow scrolling

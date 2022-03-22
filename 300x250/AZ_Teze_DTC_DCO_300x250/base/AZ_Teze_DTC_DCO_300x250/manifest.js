@@ -2,7 +2,7 @@ FT.manifest({
     "filename": "index.html",
     "width": 300,
     "height": 250,
-    "clickTagCount": 6,
+    "clickTagCount": 5,
     "hideBrowsers": ["ie8"],
     "richLoads": [
         { "name": "main_rl","src": "AZ_Teze_DTC_DCO_300x250_rl" }
@@ -14,7 +14,7 @@ FT.manifest({
         },
         { "name": "F1headlineTxt_size_hex_xy",
             "type": "text",
-            "default": "Don’t let your<br/> kind of asthma|23|#003863|100,50"
+            "default": "Dont let your<br/> kind of asthma|23|#003863|100,50"
         },
         { "name": "F2headlineTxt_size_hex_xy",
             "type": "text",
@@ -34,76 +34,57 @@ FT.manifest({
         },
         { "name": "ISI_txt",
             "type": "text",
-            "default": `<p><span class="caps"><br> 
-            Known hypersensitivity to tezepelumab-ekko or excipients.</p>
-            <p><span class="caps">WARNINGS AND PRECAUTIONS</span><br/>
-            <span class="bold">Hypersensitivity Reactions</span><br>
-             Hypersensitivity reactions (eg, rash and allergic conjunctivitis) can<br> 
-             occur following administration of TEZSPIRE. These reactions can<br>
-             occur within hours of administration, but in some instances have a<br>
-             delayed onset (ie, days). In the event of a hypersensitivity reaction,<br> 
-             initiate appropriate treatment as clinically indicated  and then consider<br>
-             the benefits and risks for the individual patient to determine whether<br> 
-             to continue or discontinue treatment with TEZSPIRE.</p>
-            
-             <p><span class="bold">Acute Asthma Symptoms or Deteriorating Disease</span><br>
-             TEZSPIRE should not be used to treat acute asthma symptoms, acute<br> 
-             exacerbations, acute bronchospasm, or status asthmaticus.</p>
+            "default": `<p><span class='bold'>Do not use TEZSPIRE</span> if you are allergic to<br/> 
+            tezepelumab-ekko or any of its ingredients.</p>
+            <p>Do not use to treat sudden breathing problems.</p>
+           <p><span class="bold">TEZSPIRE may cause serious side effects, including:</span><br/>
+             • severe allergic (hypersensitivity) reactions, such as <br/> 
+             rash or eye allergy.Call your healthcare provider or<br/>
+             get emergency help right away if you have any of<br/>
+             the following symptoms of an allergic reaction:<p/> 
+             <ul type="circle">
+             <li>rash</li>
+             <li>breathing problems</li>
+             <li>hives</li>
+             <li>red, itchy, swollen, or inflamed eyes</li>
+             </ul>
+             <p><span class='bold'>Before using TEZSPIRE, tell your healthcare provider<br/> 
+             about all of your medical conditions, including if you:</span></p>
+             <ul type="circle">
+             <li>have ever had a severe allergic reaction</li>
+             <li>have a parasitic (helminth) infection.</li>
+             <li>have recently received or are scheduled to receive<br/>any vaccinations. You should not receive a “live<br/>vaccine” if you are treated with TEZSPIRE.</li>
+             <li>are pregnant or plan to become pregnant.</li>
+             <li>are breastfeeding or plan to breastfeed. It is not <br/>known if TEZSPIRE passes into your breast milk. Talk to<br/>your healthcare provider about the best way to feed<br/>your baby if you use TEZSPIRE.</li>
+             <li>are taking prescription and over-the-counter<br/>medicines, vitamins, or herbal supplements.</li>
+             </ul>
+             <p><span class="bold">Do not</span> change or stop taking your other asthma<br/>
+             medicines unless instructed to do so by your<br/> 
+             healthcare provider.</p>
 
-             <p style="white-space: nowrap"><span class="bold">Abrupt Reduction of Corticosteroid Dosage</span><br>
-             Do not discontinue systemic or inhaled corticosteroids abruptly upon<br/>
-             initiation of therapy with TEZSPIRE. Reductions in corticosteroid dose, if <br>
-             if appropriate, should be gradual and performed under the direct supervision<br>
-             of a physician. Reduction in corticosteroid dose may be associated with<br>
-             systemic withdrawal symptoms and/or unmask conditions previously<br>
-             suppressed by systemic corticosteroid therapy.
-            </p>
-             <span class="bold">Parasitic (Helminth) Infection</span>
-             <p style="white-space: nowrap">
-             It is unknown if TEZSPIRE will influence a patient’s response against <br/>
-             helminth infections. Treat patients with pre-existing helminth infections <br>
-             before initiating therapy with TEZSPIRE. If patients become infected while<br>
-             receiving TEZSPIRE and do not respond to anti-helminth treatment,<br>
-             discontinue TEZSPIRE until infection resolves.<br>
-            </p>
-            
-             <span class="bold">Live Attenuated Vaccines </span>
-             <p style="white-space: nowrap">
-             The concomitant use of TEZSPIRE and live attenuated vaccines has not  <br/>
-             been evaluated. The use of live attenuated vaccines should be avoided in  <br>
-             patients receiving TEZSPIRE.<br>
-            </p>
-            
+             <p><span class="bold">The most common side effects of TEZSPIRE include:</span><br/>
+             Sore throat, joint and back pain. These are not all<br/>
+             the possible side effects.</p>
+
+             <p><span class="bold">APPROVED USE</span></p>
+             <ul>
+             <li>TEZSPIRE is a prescription medicine used with other<br/>asthma medicines for the maintenance treatment of<br/>severe asthma in people 12 years of age and older<br/>whose asthma is not controlled with their current<br/>asthma medicine</li>
+             <li>TEZSPIRE helps prevent severe asthma attacks<br/>(exacerbations) and can improve your breathing.</li>
+             <li>TEZSPIRE is not used to treat sudden breathing<br/>problems. Tell your healthcare provider if your<br/>asthma does not get better or if it gets worse after<br/>you start treatment with TEZSPIRE.</li>
+             <li>It is not known if TEZSPIRE is safe and effective in<br/>children under 12 years of age.</li>
+             </ul>
+             <p>Please see full<span id="prescribeisi">Prescribing Information</span>, including <span id="pi">Patient Information</span></p> 
+             <p class='itaic'>You may report side effects related to AstraZeneca<br/>products by clicking <a id="here">here</a>. The Spanish version of the<br/>adverse event reporting language is also available<br/>at this site.
+             </p>
              <p>
-             <span class="caps">ADVERSE REACTIONS </span><br>
-             The most common adverse reactions (incidence ≥3%) are pharyngitis,<br>
-             arthralgia, and back pain<br>
-             
+             TEZSPIRE is a trademark of Amgen Inc. and<br/>AstraZeneca
              </p>
-             
-             <p style="white-space: nowrap">
-             <span class="caps">USE IN SPECIFIC POPULATIONS  </span><br>
-             There are no available data on TEZSPIRE use in pregnant women to<br>
-             evaluate for any drug-associated risk of major birth defects, miscarriage,<br>
-             or other adverse maternal or fetal outcomes. Placental transfer of<br> 
-             monoclonal antibodies such as tezepelumab-ekko is greater during the third <br>
-             trimester of pregnancy; therefore, potential effects on a fetus are likely to <br>
-             be greater during the third trimester of pregnancy.<br>
-             </p>
-               
-             <p style="white-space: nowrap">
-             <span class="caps">INDICATION </span><br>
-             TEZSPIRE is indicated for the add-on maintenance treatment of adult and <br>
-             pediatric patients aged 12 years and older with severe asthma.<br>
-             TEZSPIRE is not indicated for the relief of acute bronchospasm or status <br> 
-             asthmaticus. <br>
-             </p>
-             <p>Please see full <span id="prescribeisi">Prescribing Information</span>, including <span id="pi">Patient Information</span></p>
+             <span class="signoff">&copy;2021 Amgen Inc. and AstraZeneca.All rights reserved.<br/>US-55231 Last Updated 12/21 </span>
             <footer>
                 <img id='logo_isi' src='isi_logo.png'> 
             </footer>
-             <span class="signoff">&copy;2021 Amgen Inc. and AstraZeneca. US-55349 Last Updated 12/21 </span>
-             <p>You may report side effects related to astraZeneca products by clicking <a id="here">here</a></p>`
+            
+             `
         },
         { "name": "cta_txt_size_hex_xy",
             "type": "text",
@@ -136,6 +117,6 @@ FT.manifest({
         { "name": "background_img",
             "type": "image",
             "default": "images/300x250_bg_hero_img.png"
-        },
+        }
     ]
 });
