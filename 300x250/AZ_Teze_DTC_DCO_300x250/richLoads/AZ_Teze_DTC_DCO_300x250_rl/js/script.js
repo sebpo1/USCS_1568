@@ -5,7 +5,8 @@ var images = [];
 
 function ftInit() {
     myFT.on("instantads", function (e) {
-        preload();
+      main.classList.add(checkPlatform()[0] + '-' + checkPlatform()[1]);
+      preload();
     });
 }
 
@@ -63,7 +64,7 @@ function preload() {
 
     ISIText.innerHTML = myFT.instantAds.ISI_txt;
 
-
+    setClicktags(variables);
 
 }
 
@@ -99,11 +100,13 @@ function init() {
 
 function setClicktags() {
   myFT.applyClickTag(banner, 1, variables.clickTag1_url);
-  myFT.applyClickTag(prescribe, 2, variables.clickTag2_url);
-  myFT.applyClickTag(patientInfo, 3, variables.clickTag3_ISI_url);
-  myFT.applyClickTag(document.getElementById('prescribeisi'), 2, variables.clickTag4_FPI);
-  myFT.applyClickTag(document.getElementById('pi'), 3, variables.clickTag5_PI);
-  myFT.applyClickTag(document.getElementById('here'), 4, variables.clickTag3_ISI_url);
+  myFT.applyClickTag(cta, 2, variables.clickTag2_url);
+  myFT.applyClickTag(document.getElementById('here'), 3, variables.clickTag3_ISI_url);
+  myFT.applyClickTag(prescribe, 4, variables.clickTag4_FPI);
+  myFT.applyClickTag(patientInfo, 5, variables.clickTag5_PI);
+  myFT.applyClickTag(document.getElementById('prescribeisi'), 4, variables.clickTag4_FPI);
+  myFT.applyClickTag(document.getElementById('pi'), 5, variables.clickTag5_PI);
+
 }
 
 
@@ -155,3 +158,45 @@ function setMetaData(element, txt_fontsize_copycolor_XY) {
 
 }
 
+
+function checkPlatform() {
+  try {
+      var a = new Array();
+      if (navigator.platform.toLowerCase().indexOf("mac") > -1) {
+          a[0] = "macOS";
+      } else if (navigator.platform.toLowerCase().indexOf("win") > -1) {
+          a[0] = "windows";
+      } else {
+          if (navigator.userAgent.match(/iPhone|iPad|iPod/i)) {
+              a[0] = "iOS";
+          } else if (navigator.userAgent.match(/Opera Mini/i)) {
+              a[0] = "opera";
+          } else if (navigator.userAgent.match(/Android/i)) {
+              a[0] = "android";
+          } else if (navigator.userAgent.match(/BlackBerry/i)) {
+              a[0] = "BlackBerry";
+          } else if (navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i)) {
+              a[0] = "WindowsPhone";
+          }
+      }
+      var MSIE = window.navigator.userAgent.indexOf("MSIE ");
+
+      var Edge = window.navigator.userAgent.indexOf("Edge/");
+
+      var Trdt = window.navigator.userAgent.indexOf("Trident/");
+
+      if (navigator.userAgent.toLowerCase().indexOf("chrome") > -1) {
+          a[1] = "chrome";
+      } else if (navigator.userAgent.toLowerCase().indexOf("firefox") > -1) {
+          a[1] = "firefox";
+      } else if (navigator.vendor && navigator.vendor.toLowerCase().indexOf("apple") > -1) {
+          a[1] = "safari";
+      } else if (MSIE > 0 || Edge > 0 || Trdt > 0) {
+
+          a[1] = "IE";
+      }
+      return a;
+  } catch (error) {
+      console.error("Error on checkPlatform(): " + error.message);
+  }
+}
