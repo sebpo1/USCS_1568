@@ -79,8 +79,8 @@ function init() {
   var tl = new TimelineMax();
   tl.set('.main', {opacity: 1});
 
-  tl.to('#bg', 0.5, { autoAlpha: 1 }, "+=0.2");
-  tl.to('#headline1', 0.5, { autoAlpha: 1 });
+  tl.to('#bg', 0.5, { autoAlpha: 1 }, "+=0");
+  tl.to('#headline1', 0.5, { autoAlpha: 1 },"+=0.2");
   tl.to('#bg', 5, { scale: 2.65, x:77, y:104 });
   tl.to('#headline1', 0.5, { autoAlpha: 0 }, "-=3");
   tl.to('#headline2', 0.5, { autoAlpha: 1 }, "-=2");

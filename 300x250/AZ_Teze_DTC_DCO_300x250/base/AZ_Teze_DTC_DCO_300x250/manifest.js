@@ -22,11 +22,11 @@ FT.manifest({
         },
         { "name": "F3headlineTxt_size_hex_xy",
             "type": "text",
-            "default": "Tezspire is the first and only<br/> treatment for <span class='ef426f'>severe asthma</span><br/>that provides control across<br/> every type of asthma.|12|#003869|113,52"
+            "default": "Tezspire is the first and only<br/> treatment for <span class='ef426f'>severe asthma</span><br/>that provides control across<br/> every type of asthma.|12|#003869|169,55"
         },
         { "name": "F4headlineTxt_size_hex_xy",
             "type": "text",
-            "default": "Learn how tezspire can help you<br/>live your kind of life, every day.|11|#003869|111,53"
+            "default": "Learn how tezspire can help you<br/>live your kind of life, every day.|11|#003869|169,55"
         },
         { "name": "F4_legal_Txt_size_hex_xy",
             "type": "text",
