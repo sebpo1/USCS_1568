@@ -85,6 +85,7 @@
 	left: 100px;
 	top: 50px;
 	font-size: 23px;
+	line-height: 1.0em;
 }
 
 #headline2 {
@@ -97,11 +98,16 @@
 	left: 100px;
 	top: 50px;
 	font-size: 23px;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.25em;
 }
+
 #headline4 {
 	left: 100px;
 	top: 50px;
 	font-size: 23px;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.3em;
 }
 
 
@@ -119,7 +125,7 @@
 	font-weight: 700;
 	background-color: #FF256D;
 	color: white;
-	padding: 6px 30px;
+	padding: 6px 32px;
 	top: 90px;
 	left: 163px;
 	border-radius: 13px;
@@ -130,10 +136,10 @@
 
 #ISIWrapper {
 	position: absolute;
-	top: 170px;
+	top: 167px;
 	left: -1px;
 	width: 300px;
-	height: 66px;
+	height: 58px;
 	overflow: hidden;
 	cursor: default;
 	background-color: white;
@@ -156,7 +162,7 @@
 #ISIContainer {
 	position: absolute;
 	width: 275px;
-	height: 55px;
+	height: 59px;
 	left: 9px;
 	padding-right: 17px;
 	overflow-y: scroll;
@@ -167,15 +173,25 @@
 .indication{
 	font-family: 'Poppins', sans-serif;
 	width: 100%;
-	height: 16px;
+	height: 22px;
 	background-color: #E5F3FF;
 	top: 145px;
 	font-weight: 400;
-	padding: 3px 17px;
 	font-size: 10px;
 	color: #003764;
 	font-weight: bold;
 	letter-spacing: -0.01em;
+}
+
+#indicationText {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 3px;
+}
+
+@-moz-document url-prefix() {
+	#indicationText {top: 2px}
 }
 
 #border {
@@ -246,7 +262,7 @@
 	height: 55px;
 	position: absolute;
 	right: 9px;
-	top: 4px;
+	top: 1px;
 	border: 0.1px solid #EBEBEB;
 	border-radius: 15px;
 	-webkit-transition: background 0.25s ease;
@@ -368,4 +384,9 @@ sup {
 	font-weight: bold;
 	position: absolute;
 	left: 1px;
+  }
+
+  #logo_isi {
+	  margin-top: 6px;
+	  margin-bottom: 6px;
   }

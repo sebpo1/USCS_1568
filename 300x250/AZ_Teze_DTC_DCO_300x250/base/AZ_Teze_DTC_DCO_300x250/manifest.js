@@ -14,19 +14,19 @@ FT.manifest({
         },
         { "name": "F1headlineTxt_size_hex_xy",
             "type": "text",
-            "default": "DONT LET YOUR<br/>KIND OF ASTHMA|23|#003869|113,47"
+            "default": "DON'T LET YOUR<br/>KIND OF ASTHMA|24|#003869|113,42"
         },
         { "name": "F2headlineTxt_size_hex_xy",
             "type": "text",
-            "default": "KEEP YOU FROM LIVING<br/>YOUR KIND OF LIFE|18|#003869|86,36"
+            "default": "KEEP YOU FROM LIVING<br/>YOUR KIND OF LIFE.|24|#003869|55,33"
         },
         { "name": "F3headlineTxt_size_hex_xy",
             "type": "text",
-            "default": "Tezspire is the first and only<br/> treatment for <span class='ef426f'>severe asthma</span><br/>that provides control across<br/> every type of asthma.|13|#003869|111,52"
+            "default": "Tezspire is the first and only<br/> treatment for <span class='ef426f'>severe asthma</span><br/>that provides control across<br/> every type of asthma.|12|#003869|113,52"
         },
         { "name": "F4headlineTxt_size_hex_xy",
             "type": "text",
-            "default": "Learn how tezspire can help you<br/>live your kind of life, every day.|13|#003869|111,53"
+            "default": "Learn how tezspire can help you<br/>live your kind of life, every day.|11|#003869|111,53"
         },
         { "name": "F4_legal_Txt_size_hex_xy",
             "type": "text",
@@ -93,7 +93,7 @@ FT.manifest({
         },
         { "name": "cta_txt_size_hex_xy",
             "type": "text",
-            "default": "Start now|10|#fff|163,90"
+            "default": "Start now|10|#fff|168,90"
         },
         { "name": "clickTag1_url",
             "type": "text",
