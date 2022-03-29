@@ -305,7 +305,6 @@ sup {
 	left: 0px;
 	color: #fff;
 	background-color: #003869;
-	font-weight: bold;
 	font-size: 9px;
 	opacity: 0;
 	visibility: hidden;
@@ -314,12 +313,16 @@ sup {
 
 #prescribe,#patientInfo {
 	color: #fff;
-	font-weight: 900;
 	font-size: 1.1em;
-	text-decoration: underline;
 	padding: 0px 3px;
 
 }
+
+.bold-underline{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
 .middlePipe{
 	font-size: 11.5px;
 }
