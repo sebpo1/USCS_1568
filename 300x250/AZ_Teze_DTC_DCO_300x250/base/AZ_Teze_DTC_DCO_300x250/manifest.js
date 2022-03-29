@@ -26,7 +26,7 @@ FT.manifest({
         },
         { "name": "F4headlineTxt_size_hex_xy",
             "type": "text",
-            "default": "Learn how tezspire can help you<br/>live your kind of life, every day.|11|#003869|169,55"
+            "default": "Learn how tezspire can help you<br/>live your kind of life, every day.|16|#003869|124,53"
         },
         { "name": "F4_legal_Txt_size_hex_xy",
             "type": "text",
@@ -93,7 +93,7 @@ FT.manifest({
         },
         { "name": "cta_txt_size_hex_xy",
             "type": "text",
-            "default": "Start now|10|#fff|168,90"
+            "default": "SIGN UP NOW|12|#fff|167,111"
         },
         { "name": "clickTag1_url",
             "type": "text",

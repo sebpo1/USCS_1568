@@ -108,7 +108,7 @@
 	top: 50px;
 	font-size: 23px;
 	font-family: 'Roboto Condensed', sans-serif;
-	line-height: 1.3em;
+	line-height: 1.1em;
 }
 
 
@@ -126,12 +126,12 @@
 	font-weight: 700;
 	background-color: #FF256D;
 	color: white;
-	padding: 6px 32px;
+	padding: 7px 24px;
 	top: 90px;
 	left: 163px;
 	border-radius: 13px;
 	font-size: 10px;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.05em;
 	z-index: 10;
 	visibility: hidden;
 	opacity: 0;
