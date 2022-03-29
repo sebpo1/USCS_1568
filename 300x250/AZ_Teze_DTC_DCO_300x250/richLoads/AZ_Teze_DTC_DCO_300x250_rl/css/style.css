@@ -313,11 +313,16 @@ sup {
 	z-index: 3;
 }
 
-#prescribe,#patientInfo {
+#patientInfo{
 	color: #fff;
 	font-size: 1.1em;
 	padding: 0px 3px;
 
+}
+#prescribeInfo  {
+	color: #fff;
+	font-size: 1.1em;
+	padding: 0px 3px 0px 0px;
 }
 
 .bold-underline{

@@ -93,9 +93,9 @@ function init() {
   tl.to(['#logo','#indication','#ISIWrapper', '#ISIFooter'], 0.5, { autoAlpha: 1}, "-=1");
   tl.to(['#legal','#headline3'], 0.5, { autoAlpha: 1 }, "+=0");
  
-  tl.to('#headline3', 0.5, { autoAlpha: 0 }, "+=3");
+  tl.to('#headline3', 0.5, { autoAlpha: 0 }, "+=2");
  
-  tl.to('#headline4', 0.5, { autoAlpha: 1 }, "+=0");
+  tl.to('#headline4', 0.5, { autoAlpha: 1 }, "+=0.5");
   tl.to('#cta', 1, { autoAlpha: 1, onComplete: function(){
     frame4();
   } }, "+=0");
@@ -108,6 +108,7 @@ function setClicktags() {
   myFT.applyClickTag(cta, 2, variables.clickTag2_url);
   myFT.applyClickTag(document.getElementById('here'), 3, variables.clickTag3_ISI_url);
   myFT.applyClickTag(prescribe, 4, variables.clickTag4_FPI);
+  myFT.applyClickTag(prescribeInfo, 4, variables.clickTag4_FPI);
   myFT.applyClickTag(patientInfo, 5, variables.clickTag5_PI);
   myFT.applyClickTag(document.getElementById('prescribeisi'), 4, variables.clickTag4_FPI);
   myFT.applyClickTag(document.getElementById('pi'), 5, variables.clickTag5_PI);
