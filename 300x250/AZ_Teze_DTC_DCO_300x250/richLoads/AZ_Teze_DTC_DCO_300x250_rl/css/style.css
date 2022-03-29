@@ -83,24 +83,26 @@
 }
 
 #headline1 {
-	left: 100px;
-	top: 50px;
-	font-size: 23px;
+	left: 114px;
+	top: 35px;
+	font-size: 20px;
 	line-height: 1.0em;
+	letter-spacing: -.01em;
 }
 
 #headline2 {
-	left: 109px;
-	top: 92px;
-	font-size: 23px;
+	left: 114px;
+	top: 35px;
+	font-size: 20px;
+	line-height: 1em;
 }
 
 #headline3 {
-	left: 100px;
-	top: 50px;
-	font-size: 23px;
+	left: 140px;
+	top: 63px;
+	font-size: 16px;
 	font-family: 'Roboto Condensed', sans-serif;
-	line-height: 1.25em;
+	line-height: 1em;
 }
 
 #headline4 {

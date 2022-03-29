@@ -14,23 +14,23 @@ FT.manifest({
         },
         { "name": "F1headlineTxt_size_hex_xy",
             "type": "text",
-            "default": "DON'T LET YOUR<br/>KIND OF ASTHMA|24|#003869|113,42"
+            "default": "READY FOR FEWER<br>ASTHMA ATTACKS,|20|#003869|114,35"
         },
         { "name": "F2headlineTxt_size_hex_xy",
             "type": "text",
-            "default": "KEEP YOU FROM LIVING<br/>YOUR KIND OF LIFE.|24|#003869|55,33"
+            "default": "BETTER BREATHING<br>AND IMPROVED<br>LUNG FUNCTION?|20|#003869|114,35"
         },
         { "name": "F3headlineTxt_size_hex_xy",
             "type": "text",
-            "default": "Tezspire is the first and only<br/> treatment for <span class='ef426f'>severe asthma</span><br/>that provides control across<br/> every type of asthma.|12|#003869|169,55"
+            "default": "TEZSPIRE is here to<br>help you along your<br>asthma journey,<br>no matter who you are.|16|#003869|140,63"
         },
         { "name": "F4headlineTxt_size_hex_xy",
             "type": "text",
-            "default": "Learn how tezspire can help you<br/>live your kind of life, every day.|16|#003869|124,53"
+            "default": "TEZSPIRE offers support<br>with tips, tools and<br>personalized resources.|16|#003869|124,53"
         },
         { "name": "F4_legal_Txt_size_hex_xy",
             "type": "text",
-            "default": "Tezspire is an add-on maintenance treatment for people aged 12<br/> and older with severe asthma. TEZSPIRE is not a rescue medication.|9|#003869|32,121"
+            "default": "Tezspire is an add-on maintenance treatment for people aged 12<br>and older with severe asthma. TEZSPIRE is not a rescue medication.|0|#003869|120,55"
         },
         { "name": "ISI_txt",
             "type": "text",

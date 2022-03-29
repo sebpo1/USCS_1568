@@ -81,15 +81,20 @@ function init() {
 
   tl.to('#bg', 0.5, { autoAlpha: 1 }, "+=0");
   tl.to('#headline1', 0.5, { autoAlpha: 1 },"+=0.2");
+ 
   tl.to('#bg', 5, { scale: 2.65, x:77, y:104 });
   tl.to('#headline1', 0.5, { autoAlpha: 0 }, "-=3");
   tl.to('#headline2', 0.5, { autoAlpha: 1 }, "-=2");
+
   tl.to('#headline2', 0.5, { autoAlpha: 0 }, "+=1");
   // tl.to('#logo', 0.5, { autoAlpha: 1 }, "+=0");
   tl.to('#bg', 2, { scale: 1, x:0, y:0 });
+ 
   tl.to(['#logo','#indication','#ISIWrapper', '#ISIFooter'], 0.5, { autoAlpha: 1}, "-=1");
   tl.to(['#legal','#headline3'], 0.5, { autoAlpha: 1 }, "+=0");
+ 
   tl.to('#headline3', 0.5, { autoAlpha: 0 }, "+=3");
+ 
   tl.to('#headline4', 0.5, { autoAlpha: 1 }, "+=0");
   tl.to('#cta', 1, { autoAlpha: 1, onComplete: function(){
     frame4();
