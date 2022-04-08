@@ -92,9 +92,9 @@ function init() {
  
   tl.to(['#logo','#indication','#ISIWrapper', '#ISIFooter'], 0.5, { autoAlpha: 1}, "-=1");
   tl.to(['#legal','#headline3'], 0.5, { autoAlpha: 1 }, "+=0");
- 
-  tl.to('#headline3', 0.5, { autoAlpha: 0 }, "+=2");
- 
+
+  tl.to('#headline3', 0.5, { autoAlpha: 0 }, "+=3.5");
+  
   tl.to('#headline4', 0.5, { autoAlpha: 1 }, "+=0.5");
   tl.to('#cta', 1, { autoAlpha: 1, onComplete: function(){
     frame4();
